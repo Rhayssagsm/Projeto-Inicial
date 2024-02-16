@@ -1,0 +1,94 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+html,body{
+
+    height: 100%;
+
+}
+
+.interface{
+
+    float: left;
+    width: 250px;
+    height: 800px;
+    padding: 10px 10px;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+
+.logo{
+
+
+
+}
+
+.logo img{
+
+width: 100%;
+max-width: 250px;
+
+}
+
+.menu{
+
+   margin: 20px 0;
+   color:rgb(190,190,190)
+
+}
+
+
+.menu a{
+
+  color:white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconeBuscar{
+    color: white;
+    background-color: #505050; 
+    border-radius: 5px;
+}
+
+
+.iconeInicio{
+
+
+
+}
+
+.iconeBiblioteca{
+
+    display: block;
+    padding: 10px 0;
+    margin: 0 20px;
+    background-color: #505050; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+.itensplaylist img{
+
+    width: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
